@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot</title>
+
+    <style>
+      @font-face {
+        src: url(./Roboto/Roboto-Regular.ttf);
+        font-family: "Roboto-Regular";
+        font-weight: normal;
+      }
+
+      body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto-Regular";
+  height: 100px;
+  overflow-x: hidden;
+        overflow-y: hidden;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  background-color: #ffffff7a;
+  padding: 40px;
+  border-radius: 20px;
+}
+.banner video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+}
+.banner .content {
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner .content h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 5.5em;
+  text-transform: uppercase;
+  color: #2b76bb;
+}
+.banner .content p {
+  font-size: 1.5em;
+  color: #2b76bb;
+}
+
+.logo{
+  width: 100%;
+  max-width: 150px;
+}
+
+    </style>
+  </head>
+
+  <body>
+    <div class="banner">
+      <video autoplay muted loop>
+          <source src="https://prd-gruposeb-escolasatualizadas.s3.amazonaws.com/prd-pueridomus/media/filer_public/47/c5/47c5bcdf-59f4-4281-925f-27bce9b4bd4f/teaser_institucional_-_pueri.mp4" type="video/mp4">
+      </video>
+      <div class="content">
+          <h1>CHATBOT</h1>
+          <img src="./img/logo.png" class="logo">
+      </div>
+  </div>
+    <script
+      type="text/javascript"
+      src="https://cronchatcronapp.cronapp.io/get-chat?token=5345fdggdf78852211aRgdfg678342434bffdhSETaa"
+    ></script>
+  </body>
+</html>
+
+
+
